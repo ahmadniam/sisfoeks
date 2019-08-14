@@ -3,9 +3,9 @@ require_once ('../core/init.php');
 require_once ('../view/templates/header.php');
 
 
-if(!isset($_SESSION['username'])) {
-  header ('location: ../auth/index.php');
-}
+//if(!isset($_SESSION['username'])) {
+  //header ('location: ../auth/index.php');
+//}
  ?>
 
 				<ol class="breadcrumb">
